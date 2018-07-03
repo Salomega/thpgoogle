@@ -1,31 +1,34 @@
+
 #conteneur
 {
-
-	display: flex;
-	/*justify-content: flex-start;*/
-	border: 2px solid black;
+	background-color: #fff;
+		
 }
 
-.element
+figure 
 {
-	width: 150 px;
-	height: 300 px;
-	border: 1px solid red;
-}
-.element:nth-child(1)
-{
-	background-color: orange;
-	flex : 1;
+	margin-top: 199px;
 }
 
-.element:nth-child(2)
+
+.barre 
 {
-	background-color: blue;
-	flex: 3;
+	border : 1px solid #dddddd;
+	margin-top: 27px;
+	padding: 10px ;
+	width: 500px;
+	height: 20px;
+	box-shadow: 0px 2px 2px #dddddd;
 }
 
-.element:nth-child(3)
+
+button 
 {
-	background-color: green;
-	flex: 1;
+	background-color: #f4f4f4;
+	width: 150px;
+	font-size: 13px;
+	font-style: bold;
+	border : none;
+	padding: 10px;
+	margin-top: 20px;
 }
