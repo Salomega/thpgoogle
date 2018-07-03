@@ -2,7 +2,7 @@
 #conteneur
 {
 	background-color: #fff;
-		
+		margin:-1;
 }
 
 figure 
@@ -24,11 +24,26 @@ figure
 
 button 
 {
-	background-color: #f4f4f4;
+	
+	color:#757575;
+	background-color: #f2f2f2;
 	width: 150px;
 	font-size: 13px;
 	font-style: bold;
-	border : none;
+	border : #dddddd;
 	padding: 10px;
 	margin-top: 20px;
+}
+
+button:hover
+{
+color: black;
+border : 1px solid #c6c6c6 ;
+border-radius: 2px;
+box-shadow:0 1px 1px rgba(0,0,0,0.1) ;
+}
+
+footer
+{
+	background-color: #f2f2f2;
 }
