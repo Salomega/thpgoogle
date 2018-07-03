@@ -1,0 +1,31 @@
+#conteneur
+{
+
+	display: flex;
+	/*justify-content: flex-start;*/
+	border: 2px solid black;
+}
+
+.element
+{
+	width: 150 px;
+	height: 300 px;
+	border: 1px solid red;
+}
+.element:nth-child(1)
+{
+	background-color: orange;
+	flex : 1;
+}
+
+.element:nth-child(2)
+{
+	background-color: blue;
+	flex: 3;
+}
+
+.element:nth-child(3)
+{
+	background-color: green;
+	flex: 1;
+}
